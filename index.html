@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Pokémon</title>
+</head>
+<body>
+  <img class="pokemon" height="100px" src="./slike/Pokemon_logo_PNG2.png">
+
+  <div class="grid-container">
+
+    <div class="main1">
+
+      <img height="200px" id="myPokemon1" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon1', 'Togapi')">
+  
+  <script>
+    let currentImage = 1;
+    const totalImages = 2;
+
+    function changeImage(id, pokemon) {
+      currentImage = (currentImage % totalImages) + 1;
+      const image = document.getElementById(id);
+      image.src = `./slike/${pokemon}.png`;
+      image.alt = `Image ${currentImage}`;
+    }
+  </script>
+  
+  </div>
+    
+    <div class="main2">
+
+      <img height="200px" id="myPokemon2" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon2', 'Seadra')">
+
+      <script>
+        let currentImage = 1;
+        const totalImages = 2;
+      </script>
+
+    </div>
+
+    <div class="main3">
+      <img height="200px" id="myPokemon3" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon3', 'Bulbasaur')">
+
+      <script>
+        let currentImage = 1;
+        const totalImages = 2;
+      </script>
+
+    </div>
+
+    <div class="main4">
+      <img height="200px" id="myPokemon4" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon4', 'Charizard')">
+
+      <script>
+        let currentImage = 1;
+        const totalImages = 2;
+      </script>
+      
+    </div>
+
+    <div class="main5">
+      <img height="200px" id="myPokemon5" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon5', 'Raichu')">
+
+      <script>
+        let currentImage = 1;
+        const totalImages = 2;
+      </script>
+  </div>
+
+  <div class="main6">
+    <img height="200px" id="myPokemon6" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon6', 'Jigglypuff')">
+
+    <script>
+      let currentImage = 1;
+      const totalImages = 2;
+    </script>
+</div>
+
+  <div class="main7">
+    <img height="200px" id="myPokemon7" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon7', 'Bulbasaur')">
+
+    <script>
+      let currentImage = 1;
+      const totalImages = 2;
+    </script>
+
+  </div>
+
+  <div class="main8">
+
+    <img height="200px" id="myPokemon8" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon8', 'Seadra')">
+
+    <script>
+      let currentImage = 1;
+      const totalImages = 2;
+    </script>
+
+  </div>
+
+  <div class="main9">
+
+    <img height="200px" id="myPokemon9" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon9', 'Raichu')">
+
+    <script>
+      let currentImage = 1;
+      const totalImages = 2;
+    </script>
+
+  </div>
+
+  <div class="main10">
+    <img height="200px" id="myPokemon10" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon10', 'Jigglypuff')">
+
+    <script>
+      let currentImage = 1;
+      const totalImages = 2;
+    </script>
+</div>
+
+<div class="main11">
+  <img height="200px" id="myPokemon11" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon11', 'Charizard')">
+
+  <script>
+    let currentImage = 1;
+    const totalImages = 2;
+  </script>
+  
+</div>
+
+<div class="main12">
+
+  <img height="200px" id="myPokemon12" src="./slike/icon-354008_640.png" onclick="changeImage('myPokemon12', 'Togapi')">
+
+  <script>
+    let currentImage = 1;
+    const totalImages = 2;
+  </script>
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>

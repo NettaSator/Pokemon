@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+}
+
+.grid-container{
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 
+  'main1 main1 main1 main1 main2 main2 main2 main2 main3 main3 main3 manin3'
+  'main4 main4 main4 main4 main5 main5 main5 main5 main6 main6 main6 main6'
+  'main7 main7 main7 main7 main8 main8 main8 main8 main9 main9 main9 main9'
+  'main10 main10 main10 main10 main11 main11 main11 main11 main12 main12 main12 main12'
+  ;
+}
+
+.pokemon{
+  margin-bottom: 40px;
+}
+
+.main1{
+  grid-area: main1;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.main2{
+  grid-area: main2;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.main3{
+  grid-area: main3;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.main4{
+  grid-area: main4;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.main5{
+  grid-area: main5;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+}
+
+.main6{
+  grid-area: main6;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.main7{
+  grid-area: main7;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.main8{
+  grid-area: main8;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.main9{
+  grid-area: main9;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.main10{
+  grid-area: main10;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.main11{
+  grid-area: main11;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.main12{
+  grid-area: main12;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
